@@ -1,0 +1,131 @@
+.E-heading{
+font-size:25px;
+font-weight: bold;
+} 
+.home{
+    font-weight:300;
+    margin-right:5px;
+} 
+.products{
+    opacity:30%;
+    margin-right:5px;
+} 
+.btn{
+    border:1px solid grey;
+    margin:3px;
+}
+.header-section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top:13px;
+    
+} 
+.banner-image{
+    margin:10px;
+    background-image:url("../Images/main.png.jpg"); 
+    background-size: cover;
+    height:70vh;
+    object-fit: contain;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+} 
+.head{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    margin-left:30px;
+
+}
+.para{
+    color:white;
+    font-size:20px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:30px;
+}
+.p-heading{
+    color:gray;
+    text-align: center;
+    font-size:40px;
+    margin-top:50px;
+    font-family:sans-serif;
+}
+.line{
+    width:auto;
+    align-content: center;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top:20px;
+} 
+.item{
+    border:1px solid grey;
+    margin-right: 10px; 
+    color:gray;
+    padding:2px;
+    border-radius: 3px;
+    align-content: center;
+}
+.nav-items{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+} 
+/* product-card css */
+
+#container{
+    display:flex;
+    /* grid-template-columns: repeat(3,1fr);  */
+    flex-wrap:wrap;
+    row-gap: 10px;
+    margin:10px;
+    margin-top:60px; 
+    align-items: center;
+    justify-content: center;
+}
+ .productcard{
+    width:400px;
+    height:440px;
+    border:1px solid gray; 
+    border-radius:10px; 
+    padding:10px; 
+    /* flex-grow: 1; */
+    margin-left:20px;
+    text-align:center;    
+} 
+.productcard img{
+    width:100%;
+    object-fit: contain; 
+    height:170px;
+    margin-top:10px;
+    
+}
+.button-class{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.price{
+    font-size:15px;
+    opacity:40%;
+}
+.btn1{
+    background-color: black;
+    color:white;
+    border-color:black;
+    margin-top:10px;
+    margin-right:3px;
+
+}
+/* page-css */
+.heart{
+    background-color: red;
+}
+.last-para{
+    text-align: center;
+    margin-top:50px;
+}
+.name{
+    text-decoration: underline;
+}
+
