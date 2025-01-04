@@ -163,4 +163,9 @@ font-weight: bold;
     display:block;
     text-align: center;
 }
+/* Register-page css */
+.name-field{
+    width:400px;
+    margin-top:10px; 
+}
 
