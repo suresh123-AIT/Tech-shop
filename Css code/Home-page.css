@@ -6,10 +6,15 @@ font-weight: bold;
     font-weight:300;
     margin-right:5px;
 } 
-.products{
-    opacity:30%;
-    margin-right:5px;
+#products:hover{
+    color:black;
+    font-weight: 300;
+    
 } 
+#products{
+    color:gray;
+}
+
 .btn{
     border:1px solid grey;
     margin:3px;
