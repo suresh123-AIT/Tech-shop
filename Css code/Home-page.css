@@ -167,5 +167,9 @@ font-weight: bold;
 .name-field{
     width:400px;
     margin-top:10px; 
+} 
+/* contact-page css */ 
+.text{
+    margin-top:10px;
 }
 
