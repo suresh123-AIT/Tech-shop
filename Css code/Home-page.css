@@ -133,4 +133,34 @@ font-weight: bold;
 .name{
     text-decoration: underline;
 }
+/* login-page css */ 
+.login-head{
+    text-align:center;
+    font-size:45px;
+    margin-top:40px;
+    font-family:sans-serif;
+}
+.login-line{
+    width:auto;
+    margin-left:30px;
+    margin-right:30px;
+
+}.email-field{
+    width:400px;
+    margin-top:10px;
+}
+.password-field{
+    width:400px;
+    margin-top:10px; 
+}
+.login-form{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top:20px;
+}
+.button{
+    display:block;
+    text-align: center;
+}
 
