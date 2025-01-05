@@ -172,4 +172,14 @@ font-weight: bold;
 .text{
     margin-top:10px;
 }
+/* About-page css */ 
+.About-para{
+    text-align: center;
+    margin-top:20px;
+   
+}
+.About-div{
+    display:flex;
+    justify-content: center;
+}
 
