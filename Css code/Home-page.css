@@ -180,6 +180,31 @@ font-weight: bold;
 }
 .About-div{
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pro-heading{
+    text-align: center;
+    font-family:sans-serif;
+    margin-top:10px;
+}
+.img{
+    height:160px;
+    width:230px;
+    margin:15px;
+    
+}
+.img-des{
+    font-weight:bold;
+    margin-top:5px;
+    margin-left:35px;
+    
+}
+.fig{
+    text-align: center;
+}
+.img-div{
+    display:flex;
     justify-content: center;
 }
 
