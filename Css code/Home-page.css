@@ -206,5 +206,36 @@ font-weight: bold;
 .img-div{
     display:flex;
     justify-content: center;
+} 
+/* cart-page css */ 
+.cart-div{
+    border:1px solid gray;
+    /* width:auto; */
+    margin-left: 25px;
+    margin-right:25px; 
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:c0c4c2;
 }
+
+.cart-heading{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart-btn{
+    height:45px;
+    width:220px;
+    background-color: white;
+    border-radius: 5px;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
 
