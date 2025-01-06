@@ -171,6 +171,17 @@ font-weight: bold;
 /* contact-page css */ 
 .text{
     margin-top:10px;
+} 
+.btn-send{ 
+    display:block;
+    text-align: center;
+}
+.btn2{
+    height:35px;
+    width:80px; 
+    margin-top: 15px;
+    border-radius:5px;
+    
 }
 /* About-page css */ 
 .About-para{
