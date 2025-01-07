@@ -3,7 +3,7 @@ font-size:25px;
 font-weight: bold;
 } 
 .home{
-    font-weight:300;
+    font-weight:600;
     margin-right:5px;
 } 
 #products:hover{
@@ -12,12 +12,16 @@ font-weight: bold;
     
 } 
 #products{
-    color:gray;
+    color:grey;
 }
 
 .btn{
     border:1px solid grey;
     margin:3px;
+}
+#btns:hover{
+    background-color: black;
+    color:white;
 }
 .header-section{
     display:flex;
